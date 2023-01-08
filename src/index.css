@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=League+Spartan:wght@100;200;300;400;600;800;900&family=Montserrat:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: "DM Sans," sans-serif;
+    @apply text-gray-500;  /* Will grab the text primary 500 color for our text to work as our default text color for our entire page */
+}
